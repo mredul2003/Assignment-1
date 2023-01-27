@@ -4,13 +4,58 @@ body {
 }
 
 .top-banner {
-    background-image: url(images/top-banner.jpg);
+    background-image: url(images/banner.jpg);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-position: absolute;
+    background-size: cover;
+    height: 100vh;
 }
 
 .header {
+    position: absolute;
+    width: 826px;
+    height: 320px;
+    left: 307px;
+    top: 174px;
+
+}
+
+.header h1 {
+    position: absolute;
+    width: 826px;
+    height: 158px;
+    left: 93px;
+    top: 174px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 79px;
     text-align: center;
-    position: relative;
-    top: 15%;
+
+    color: #FFFFFF;
+}
+
+.header p {
+    position: absolute;
+    width: 691px;
+    height: 56px;
+    left: 154px;
+    top: 380px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: bold;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 156% */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.link-button {
+    background-image: -o-linear-gradient();
 }
